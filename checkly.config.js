@@ -14,7 +14,7 @@ module.exports = defineConfig({
       checkMatch: '**/__checks__/**/*.check.js',
       ignoreDirectoriesMatch: [],
       browserChecks: {
-        frequency: 10,
+        frequency: 60*24,
         testMatch: '**/__checks__/**/*.spec.js',
       },
     },
