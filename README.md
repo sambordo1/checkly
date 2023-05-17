@@ -1,2 +1,3 @@
 # checkly
-Trying out checkly with playwright tests for personal website
+Trying out checkly with playwright tests on a demo website
+
