@@ -1,0 +1,135 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.add to cart load test": 6,
+      "vusers.created": 6,
+      "browser.http_requests": 132,
+      "vusers.failed": 0,
+      "vusers.completed": 6
+    },
+    "rates": {},
+    "firstCounterAt": 1687358827526,
+    "firstHistogramAt": 1687358828542,
+    "lastCounterAt": 1687358839216,
+    "lastHistogramAt": 1687358839216,
+    "firstMetricAt": 1687358827526,
+    "lastMetricAt": 1687358839216,
+    "period": 1687358830000,
+    "summaries": {
+      "browser.page.FCP.https://www.saucedemo.com/": {
+        "min": 294.4,
+        "max": 402.4,
+        "count": 12,
+        "p50": 308,
+        "median": 308,
+        "p75": 333.7,
+        "p90": 333.7,
+        "p95": 399.5,
+        "p99": 399.5,
+        "p999": 399.5
+      },
+      "browser.page.TTFB.https://www.saucedemo.com/": {
+        "min": 121.5,
+        "max": 140.1,
+        "count": 6,
+        "p50": 130.3,
+        "median": 130.3,
+        "p75": 130.3,
+        "p90": 133,
+        "p95": 133,
+        "p99": 133,
+        "p999": 133
+      },
+      "browser.page.LCP.https://www.saucedemo.com/": {
+        "min": 394.1,
+        "max": 535.9,
+        "count": 6,
+        "p50": 415.8,
+        "median": 415.8,
+        "p75": 432.7,
+        "p90": 441.5,
+        "p95": 441.5,
+        "p99": 441.5,
+        "p999": 441.5
+      },
+      "vusers.session_length": {
+        "min": 1671.3,
+        "max": 2076.5,
+        "count": 6,
+        "p50": 1755,
+        "median": 1755,
+        "p75": 1790.4,
+        "p90": 1790.4,
+        "p95": 1790.4,
+        "p99": 1790.4,
+        "p999": 1790.4
+      }
+    },
+    "histograms": {
+      "browser.page.FCP.https://www.saucedemo.com/": {
+        "min": 294.4,
+        "max": 402.4,
+        "count": 12,
+        "p50": 308,
+        "median": 308,
+        "p75": 333.7,
+        "p90": 333.7,
+        "p95": 399.5,
+        "p99": 399.5,
+        "p999": 399.5
+      },
+      "browser.page.TTFB.https://www.saucedemo.com/": {
+        "min": 121.5,
+        "max": 140.1,
+        "count": 6,
+        "p50": 130.3,
+        "median": 130.3,
+        "p75": 130.3,
+        "p90": 133,
+        "p95": 133,
+        "p99": 133,
+        "p999": 133
+      },
+      "browser.page.LCP.https://www.saucedemo.com/": {
+        "min": 394.1,
+        "max": 535.9,
+        "count": 6,
+        "p50": 415.8,
+        "median": 415.8,
+        "p75": 432.7,
+        "p90": 441.5,
+        "p95": 441.5,
+        "p99": 441.5,
+        "p999": 441.5
+      },
+      "vusers.session_length": {
+        "min": 1671.3,
+        "max": 2076.5,
+        "count": 6,
+        "p50": 1755,
+        "median": 1755,
+        "p75": 1790.4,
+        "p90": 1790.4,
+        "p95": 1790.4,
+        "p99": 1790.4,
+        "p999": 1790.4
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {},
+      "rates": {},
+      "period": 1687358820000,
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {},
+      "rates": {},
+      "period": 1687358830000,
+      "summaries": {},
+      "histograms": {}
+    }
+  ]
+}

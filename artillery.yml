@@ -1,0 +1,20 @@
+config:
+    target: 'https://www.saucedemo.com/'
+    phases:
+        - name: 'first set'
+          arrivalRate: 1
+          duration: 3
+        - name: 'pause'
+          pause: 5
+        - name: 'second set'
+          arrivalRate: 1
+          duration: 3
+    engines:
+        playwright:
+            defaultPageTimeout: 120
+    processor: 'load-tests/add-to-cart-load.spec.js'
+scenarios:
+    - name: 'add to cart load test'
+      engine: playwright
+      flowFunction: 'addToCart'
+      flow: []
